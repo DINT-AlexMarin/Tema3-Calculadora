@@ -30,5 +30,10 @@ namespace Tema3_Calculadora
             Button boton = (Button)sender;
             Numero_Label.Content += boton.Tag.ToString();
         }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }
